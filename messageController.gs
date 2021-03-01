@@ -26,6 +26,6 @@ function messageController(event, replyToken) {
     }];
 
     //LINEに返信する
-    replyLine(prop, LineMessageObject, replyToken);
+    replyLine(LineMessageObject, replyToken);
   }
 }
